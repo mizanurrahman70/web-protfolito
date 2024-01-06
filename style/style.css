@@ -29,9 +29,10 @@ span {
 }
 
 .search ul>li {
+    color: #181818;
     display: inline;
     margin-right: 50px;
-    color: (#474747);
+    color: #474747;
     font-size: 20px;
 
 }
