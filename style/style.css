@@ -12,7 +12,7 @@ header {
     background-image: url("../web-protfolito/images/header_bg.png");
     background-repeat: no-repeat;
     background-position: bottom right;
-    
+
 }
 
 nav {
@@ -41,56 +41,63 @@ span {
 }
 
 .btn-main {
-    
+
     font-size: 20px;
-    color: #FFF ;
+    color: #FFF;
     font-weight: 700;
 
     background: #FD6E0A;
     border-radius: 5px;
     border: 0;
     padding: 15px 35px;
-   
 
-    }
-.banner{
+
+}
+
+.banner {
     padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
-   justify-content: space-between;
+    justify-content: space-between;
 }
-.banner-title{
+
+.banner-title {
     width: 585px;
 }
-.banner .man-img{
+
+.banner .man-img {
     width: 500px;
     height: 600px;
 }
-.banner-title{
+
+.banner-title {
     font-size: 45px;
     font-weight: 600;
     color: #474747;
     margin-bottom: 5px;
-} 
-.banner-heading{
+}
+
+.banner-heading {
     font-size: 85px;
     font-weight: 700;
     color: #181818;
     margin-bottom: 20px;
-    
+
 }
-.banner-tontant{
+
+.banner-tontant {
     font-size: 18px;
     font-weight: 400;
     color: #757575;
-     width: 585px;
-    
+    width: 585px;
+
 }
+
 /* start main section */
-.main-section{
-    background-color:#FFF8F3;
+.main-section {
+    background-color: #FFF8F3;
     width: 1140px;
-     height: 550px;
+    height: 550px;
     border-radius: 10px;
     padding: 200px 150px 200px 150px;
     text-align: center;
@@ -100,19 +107,71 @@ span {
     margin-right: auto;
 
 }
-.section-title{
+
+.section-title {
     color: #181818;
     font-size: 35px;
     font-weight: 700;
 }
-.section-paragraph{
+
+.section-paragraph {
     color: #757575;
     text-align: center;
     font-size: 18px;
     font-weight: 400;
     line-height: 30px
+}
+
+/* sescion inforrmatin */
+.about-info-main {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.info-title {
+    color: #757575;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.info-dspk {
+    font-weight: 700px;
+    font-family: 20px;
+    color: (#474747);
+
 
 }
 
+.about-info {
+    margin-left: 50px;
+}
 
+/* section 2 style */
+.section-2 {
+    text-align: center;
+    justify-content: center;
+}
 
+.what-am-i {
+
+    color: (#181818);
+    text-align: center;
+
+    font-size: 35px;
+
+    font-weight: 700;
+
+}
+.paragraph-section{
+justify-content: center;
+width: 909px;
+font-weight: 400px;
+font-size: 18px
+}
+.what-i-d{
+    padding: 30px 150px;
+    justify-content: center;
+    text-align: center;
+}
