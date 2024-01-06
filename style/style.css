@@ -209,7 +209,7 @@ span {
 }
 
 .skill {
-    
+
     border-radius: 5px;
     background: #FFF;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
@@ -244,4 +244,58 @@ span {
     font-weight: 400;
     line-height: 28px;
 }
+
 /* resume section */
+.resume-container {
+    margin-top: 110px;
+    display: flex;
+    margin-left: 250px;
+    margin-right: 259px;
+    gap: 71px;
+}
+
+.resume-title {
+
+    color: #474747;
+
+    font-size: 30px;
+
+    font-weight: 700;
+    margin-bottom: 30px;
+    margin-top: 30px;
+
+
+}
+.resume-head{
+    color:  #474747;
+
+font-size: 25px;
+
+font-weight: 700;
+margin-bottom: 10px;
+margin-top: 30px;
+
+}
+.resume-mini{
+    color:  #757575;
+
+font-size: 20px;
+
+font-weight: 600;
+margin-bottom: 20px;
+}
+.resume-paragraph{
+    
+    color: #757575;
+   
+    font-size: 16px;
+    
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+#btn-cv{
+    margin-top: 70px;
+    margin-bottom: 131px;
+
+}
