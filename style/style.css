@@ -149,12 +149,9 @@ span {
 }
 
 /* section 2 style */
-.section-2 {
-    text-align: center;
-    justify-content: center;
-}
+/*  */
 
-.what-am-i {
+/* .what-am-i {
 
     color: (#181818);
     text-align: center;
@@ -164,14 +161,87 @@ span {
     font-weight: 700;
 
 }
-.paragraph-section{
-justify-content: center;
-width: 909px;
-font-weight: 400px;
-font-size: 18px
+
+
+.what{
+ text-align: center;
+ justify-content: center;
+ position: absolute;
+} */
+.section-title {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #181818;
+    font-weight: 700;
+    font-size: 35px;
 }
-.what-i-d{
+
+.what-i-d {
     padding: 30px 150px;
     justify-content: center;
     text-align: center;
 }
+
+.paragraph-section {
+    color: #757575;
+    text-align: center;
+    width: 909px;
+    margin: 0 auto;
+    font-weight: 400px;
+    font-size: 18px
+}
+
+.section-2 {
+    text-align: center;
+    justify-content: center;
+}
+
+/* skill add with img */
+.skill-container {
+
+    width: 1140px;
+    display: flex;
+    margin: 50px auto;
+    height: 277px;
+    gap: 24px;
+    padding: 30px;
+    margin-bottom: 130px;
+}
+
+.skill {
+    
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.skill img {
+    width: 44px;
+    height: 44px;
+    margin-bottom: 30px;
+
+}
+
+.skill-titlel {
+    text-align: left;
+    color: (#181818);
+    font-size: 20px;
+    font-weight: 700;
+
+
+
+
+}
+
+.skill-description {
+    color: #757575;
+    margin-top: 20px;
+    width: 201px;
+    color: (#757575);
+    padding: 30px;
+    font-size: 16px;
+
+    font-weight: 400;
+    line-height: 28px;
+}
+/* resume section */
