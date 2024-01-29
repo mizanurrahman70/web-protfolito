@@ -9,9 +9,10 @@
 /* nav realeted style */
 header {
     background-color: #FFF8F3;
-    background-image: url("../web-protfolito/images/header_bg.png");
+    background-image: url("../web-protfolito/images/header_bg.png"), url("../web-protfolito/images/developer.png");
     background-repeat: no-repeat;
     background-position: bottom right;
+
 
 }
 
@@ -20,6 +21,7 @@ nav {
     align-items: center;
     justify-content: space-between;
     margin: 0 200px;
+    padding-top: 50px;
 
 }
 
@@ -39,6 +41,7 @@ span {
 
 .search a {
     text-decoration: none;
+    color: #757575;
 }
 
 .btn-main {
@@ -347,6 +350,12 @@ span {
 .social-link img {
     padding-right: 24px;
     text-align: center;
+   
+}
+.social-link{
+    align-items: center;
+    justify-content: center;
+    margin-left: 200px;
 }
 
 /* #footer-form{
@@ -385,3 +394,55 @@ margin-right: 230px;
     background: #FFF;
     margin-bottom: 42px;
 }
+
+/* @media screen and (max-width:576px) {
+
+    .footer, .about-info-main,
+    .resume-container {
+        flex-direction: column;
+
+        display: grid;
+        /* grid-template-columns: repeat(1, 1fr); */
+/* margin-top: 0px;
+
+        margin-left: 0px;
+        margin-right: 0px;
+        gap: 0px;
+        padding: 0;
+        padding: 0%;
+
+    }
+
+    .skill-container {
+        margin-bottom: 1314px;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .footer-paragraph {
+        width: 100%;
+    }
+
+    .form-input input {
+        width: 270px;
+        height: 64px;
+    }
+
+    .section-footer {
+        padding: 0%;
+    }
+.main-section{
+    align-content: flex-start;
+    margin: 0%;
+    padding: 0%;
+    height: 0%;
+    width: 0%;
+}
+.section-paragraph{
+    height: 200px;
+    width: 150px;
+}
+body{
+    width: 100%;
+}
+} */
